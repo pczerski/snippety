@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ćwiczenia</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <p id="sample-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat cupiditate, earum totam quidem illum reprehenderit quasi veniam ipsum vitae accusantium deleniti sit odio consequatur et impedit, dolore molestias excepturi, esse!</p>
+
+   <!--  POZYCJONOWANIE ELEMENTÓW  -->
+    <div id="outer-1">
+        <div id="inner-1"></div>
+    </div>
+    <div id="outer-2">
+        <div id="inner-2"></div>
+    </div>
+    <div id="outer-3">
+        <div id="inner-3"></div>
+    </div>
+    
+<!--  OKRĄGŁY PRZYCISK Z IKONKĄ FONT AWESOME  -->
+    <button id="przycisk"><i class="fa fa-grav" aria-hidden="true"></i></button>
+
+<!--  IKONA FONT AWESONE JAKO ZANCZNIK LISTY  -->
+    <ul class="fa-ul">
+        <li><i class="fa-li fa fa-bolt" aria-hidden="true"></i>item 1</li>
+        <li><i class="fa-li fa fa-bolt" aria-hidden="true"></i>item-2</li>
+        <li><i class="fa-li fa fa-bolt" aria-hidden="true"></i>item-3</li>
+    </ul>
+    
+<!--  ZMIANA KOLORU LINKU DLA ROZSZERZENIA .DOC   -->
+    <a href="www.aproxa.pl/docs/dokument.pdf">Dokument 1</a><br>
+    <a href="www.aproxa.pl/docs/dokument.doc">Dokument 2</a><br>
+    <a href="www.aproxa.pl/docs/dokument.rtf">Dokument 3</a><br>
+
+<!--  ZMIANA ZNACZNIKA CYTATU  -->
+   <p>Lorem ipsum dolor sit amet, <q>consectetur adipisicing elit</q>. Non reprehenderit eum ex nesciunt consequatur atque eveniet molestias ea, nam ratione! Quod veniam earum temporibus in obcaecati quia cum eaque quam.</p>
+   
+   <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime suscipit alias maiores laboriosam architecto sapiente, qui, veritatis eius sequi quisquam provident! Quis laboriosam facere soluta dolor harum aspernatur optio accusantium.</blockquote>
+   
+    <section id="formularz">
+        <form action="#">
+            <fieldset>
+                <legend>Zapisz się na szkolenie</legend>
+                <input type="text" name="firstname" placeholder="Imię"><br>
+                <input type="text" name="lastname" placeholder="Nazwisko"><br>
+                <input type="email" name="email" placeholder="E-mail"><br>
+                <input type="tel" name="tel" placeholder="Telefon"><br>
+                <input type="radio" name="gender" value="male" checked>
+                <label for="male">Mężczyzna</label><br>
+                <input type="radio" name="gender" value="female">
+                <label for="female">Kobieta</label><br>
+                <select name="city" required>
+                    <option selected>--- Wybierz miasto ---</option>
+                    <option value="krakow">Kraków</option>
+                    <option value="warszawa">Warszawa</option>    
+                    <option value="gdansk">Gdańsk</option>                              
+                </select><br>
+                <textarea name="message" rows="10" cols="30" placeholder="Wiadomość"></textarea><br>
+                <input type="checkbox" name="consent" checked>
+                <label for="consent">Wyrażam zgodę na przetwarzanie marketingowe</label> <br><br>
+                <input type="submit" value="WYŚLIJ">
+            </fieldset>
+        </form>
+    </section>
+
+</body>
+
+</html>
