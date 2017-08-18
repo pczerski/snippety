@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Zapisz się na szkolenie</legend>
+            <input type="text" name="firstname" placeholder="Imię"><br>
+            <input type="text" name="lastname" placeholder="Nazwisko"><br>
+            <input type="email" name="email" placeholder="E-mail"><br>
+            <input type="tel" name="tel" placeholder="Telefon"><br>
+            <input type="radio" name="gender" value="male" checked>
+            <label for="male">Mężczyzna</label><br>
+            <input type="radio" name="gender" value="female">
+            <label for="female">Kobieta</label><br>
+            <select name="city" required>
+                <option selected>--- Wybierz miasto ---</option>
+                <option value="krakow">Kraków</option>
+                <option value="warszawa">Warszawa</option>    
+                <option value="gdansk">Gdańsk</option>                              
+            </select><br>
+            <textarea name="message" rows="10" cols="30" placeholder="Wiadomość"></textarea><br>
+            <input type="checkbox" name="consent" checked>
+            <label for="consent">Wyrażam zgodę na przetwarzanie marketingowe</label> <br><br>
+            <input type="submit" value="WYŚLIJ">
+        </fieldset>
+    </form>
+</body>
+</html>

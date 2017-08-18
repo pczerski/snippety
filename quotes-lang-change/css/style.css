@@ -1,0 +1,3 @@
+html[lang="pl"] q {
+    quotes: "\201E" "\201D";
+}

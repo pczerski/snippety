@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+}
+
+footer {
+    height: 50px;
+    background-color: cornflowerblue;
+    
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,44 @@
+#outer-1, #outer-2, #outer-3 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: burlywood
+}
+
+#outer-1 {
+    left: 0px;
+}
+
+#outer-2 {
+    top: -300px;
+    left: 350px;
+}
+
+#outer-3 {
+    top: -600px;
+    left: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#inner-1, #inner-2, #inner-3 {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background-color: coral;
+}
+
+#inner-1 {
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#inner-2 {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
